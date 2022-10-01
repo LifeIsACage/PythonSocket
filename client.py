@@ -1,7 +1,7 @@
 import socket
 
 client = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-client.connect(('192.168.2.88', 65234))
+client.connect(('192.168.X.XX', 65234))
 
 name = input("Insert your name: ")
 
